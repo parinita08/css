@@ -1,4 +1,4 @@
-*, *:before {
+* {
     margin: 0;
     border: 0;
     box-sizing: border-box;
@@ -39,10 +39,6 @@ input, button {
     width: 640px;
     height: 100%;
     padding: 50px 30px;
-    -webkit-transition: -webkit-transform 1.2s ease-in-out;
-    transition: -webkit-transform 1.2s ease-in-out;
-    transition: transform 1.2s ease-in-out;
-    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
 
 /* styles h2 */
@@ -149,20 +145,10 @@ button {
     width: 260px;
     height: 100%;
     padding-top: 360px;
-}
-
-.img:before {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 260px;
-    height: 100%;
     background-image: url(./images/bg.jpg);
     background-size: cover;
-    transition: -webkit-transform 1.2s ease-in-out;
-    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
+
 
 /* for smaller screen */
 /* Media Queries: Tablet Landscape */
@@ -179,10 +165,6 @@ button {
         width: 200px;
         height: 100%;
         padding: 30px 20px;
-        -webkit-transition: -webkit-transform 1.2s ease-in-out;
-        transition: -webkit-transform 1.2s ease-in-out;
-        transition: transform 1.2s ease-in-out;
-        transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
     }
 
     h2 {
